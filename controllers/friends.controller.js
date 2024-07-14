@@ -14,6 +14,7 @@ function getFriend(req, res) {
         });
     }
 };
+
 function postFriends(req, res) {
     if(!req.body.name) {
         res.status(400).json({
